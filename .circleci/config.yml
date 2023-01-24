@@ -34,7 +34,7 @@ jobs:
           name: Run Playbook and Configure server
           command: |
             # Your command
-            ansible-playbook -i inventory main.yml
+            sudo ansible-playbook -i inventory main.yml
 
 
 # Invoke jobs via workflows
